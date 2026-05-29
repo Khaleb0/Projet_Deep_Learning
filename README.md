@@ -11,12 +11,6 @@ Projet_DL/
 │
 ├── notebooks/                # Notebooks Jupyter d'exploration et de prototypage
 │
-├── src/
-│   ├── cnn/                  # Modèle CNN (ResNet / VGG / EfficientNet + fine-tuning)
-│   ├── rnn/                  # Modèle RNN/LSTM/GRU + embeddings (Word2Vec, GloVe, BERT)
-│   ├── fusion/               # Module de fusion multi-modale (concaténation + FC layers)
-│   └── utils/                # Fonctions utilitaires (chargement données, métriques, etc.)
-│
 ├── models/
 │   ├── checkpoints/          # Sauvegardes intermédiaires pendant l'entraînement
 │   └── pretrained/           # Poids pré-entraînés (ResNet, BERT, etc.)
@@ -32,8 +26,21 @@ Projet_DL/
 └── README.md
 ```
 
-## Étapes
-1. Image Processing with CNN (preprocessing → CNN model → fine-tuning)
-2. Text Processing with Embeddings and RNN (tokenization → embeddings → LSTM/GRU)
-3. Multi-Modal Fusion (concaténation → FC layers → softmax)
-4. Model Tuning & Optimization (hyperparameter search, regularization, cross-validation)
+## Dataset
+- **Flickr8k** — 8 000 images, 5 captions par image
+- Images : `data/raw/Images/`
+- Captions : `data/raw/captions.txt`
+
+## Dépendances
+```bash
+pip install torch torchvision tqdm Pillow pandas matplotlib
+```
+
+## Avancement
+
+| Étape | Description | Notebook | Statut |
+|-------|-------------|----------|--------|
+| 1 | Image Processing with CNN (ResNet50) | `notebooks/multimodal_project.ipynb` | ✅ Fait |
+| 2 | Text Processing with Embeddings and RNN | `notebooks/multimodal_project.ipynb` | 🔲 À faire |
+| 3 | Multi-Modal Fusion | `notebooks/multimodal_project.ipynb` | 🔲 À faire |
+| 4 | Model Tuning & Optimization | `notebooks/multimodal_project.ipynb` | 🔲 À faire |
