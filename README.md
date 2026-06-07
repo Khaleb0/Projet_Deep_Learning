@@ -17,8 +17,8 @@ Projet_DL/
 │
 ├── results/
 │   ├── figures/              # Courbes d'apprentissage, matrices de confusion, etc.
-│   ├── logs/                 # Logs d'entraînement
-│   └── metrics/              # Résultats chiffrés (accuracy, F1, etc.)
+│   
+│   
 │
 ├── report/                   # Rapport théorique et mathématique
 ├── presentation/             # Slides de présentation finale
