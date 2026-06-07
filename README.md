@@ -41,6 +41,6 @@ pip install torch torchvision tqdm Pillow pandas matplotlib
 | Étape | Description | Notebook | Statut |
 |-------|-------------|----------|--------|
 | 1 | Image Processing with CNN (ResNet50) | `notebooks/multimodal_project.ipynb` | ✅ Fait |
-| 2 | Text Processing with Embeddings and RNN | `notebooks/multimodal_project.ipynb` | 🔲 À faire |
-| 3 | Multi-Modal Fusion | `notebooks/multimodal_project.ipynb` | 🔲 À faire |
-| 4 | Model Tuning & Optimization | `notebooks/multimodal_project.ipynb` | 🔲 À faire |
+| 2 | Text Processing with Embeddings and RNN | `notebooks/multimodal_project.ipynb` | ✅ Fait |
+| 3 | Multi-Modal Fusion | `notebooks/multimodal_project.ipynb` | ✅ Fait |
+| 4 | Model Tuning & Optimization | `notebooks/multimodal_project.ipynb` | ✅ Fait |
