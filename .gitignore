@@ -1,0 +1,6 @@
+# Ignorer le fichier GloVe spécifique
+models/pretrained/glove.6B.200d.txt
+
+# Ou encore mieux, ignorer tous les fichiers textes et dossiers de modèles lourds
+*.txt
+models/pretrained/
